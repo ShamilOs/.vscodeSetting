@@ -1,0 +1,43 @@
+// Place your key bindings in this file to override the defaults
+[
+  // Перенос классов из html в css по BEM:
+  {
+    "key": "ctrl+alt+z",
+    "command": "extension.eCSSTractor_port_runWithBem"
+  },
+  // Перенос классов из html в css не по BEM:
+  {
+    "key": "ctrl+alt+x",
+    "command": "extension.eCSSTractor_port_run"
+  },
+  // Перенос фокуса курсора из Сайд-бара в рабочую область:
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "explorerViewletVisible"
+  },
+  // Перенос фокуса курсора в Сайд-бар:
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "explorerViewletVisible"
+  },
+  // Создание нового Файла в Древе Сайд-бара:
+  {
+    "key": "a",
+    "command": "explorer.newFile",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  // Создание новой Папки в Древе Сайд-бара:
+  {
+    "key": "shift+a",
+    "command": "explorer.newFolder",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  // Удаление всей строки, где стоит Курсор:
+  {
+    "key": "delete end",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  }
+]

@@ -1,0 +1,121 @@
+// cspell: disable
+{
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "breadcrumbs.enabled": false,
+  "bemHelper.elementSeparator": "__ ",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 1.5,
+  "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "bounded",
+  "editor.hover.above": false,
+  "editor.glyphMargin": false,
+  "editor.insertSpaces": false,
+  "editor.linkedEditing": true,
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": true,
+  "editor.minimap.enabled": false,
+  "editor.matchBrackets": "never",
+  "editor.detectIndentation": false,
+  "editor.lightbulb.enabled": "off",
+  "editor.inlineSuggest.enabled": true,
+  "editor.scrollBeyondLastLine": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.guides.bracketPairs": "active",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.compactFolders": false,
+  "git.autofetch": false,
+  "git.decorations.enabled": false,
+  "files.defaultLanguage": "html",
+  "files.insertFinalNewline": true,
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.mouseWheelZoom": true,
+  "ecsstractor_port.add_comment": false,
+  "ecsstractor_port.empty_line_before_nested_selector": false,
+  "vscodeGoogleTranslate.preferredLanguage": "Russian",
+  "window.density.editorTabHeight": "compact",
+  "workbench.editor.tabSizing": "shrink",
+  "cSpell.userWords": ["myprimer", "myVtoroyPrimer"],
+  "cSpell.language": "en,ru",
+  "cSpell.enableFiletypes": [
+    "blade",
+    "jsx",
+    "tsx",
+    "ts",
+    "js",
+    "scss",
+    "sass",
+    "html",
+    "css",
+    "vue"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "autoprefix": "last 5 versions",
+      "extensionName": ".css",
+      "savePath": "css"
+    }
+  ],
+  "files.associations": {
+    "*.kit": "html"
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "sync.gist": "3dd0d3e2658212cfe5a22d3cd6e8051d"
+}
